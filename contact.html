@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Society Construction Contact</title>
+    <link rel="stylesheet" type="text/css" href="style3.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Soceity Construction Contact List</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you'd like to get in touch or would like to schedule a quote for a
+        project, send us an email or fill out the form below:
+      </p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:society.constructionco@gmail.com"
+            >society.constructionco@gmail.com</a
+          >
+        </li>
+      </ul>
+      <p>Or you can use the contact form below:</p>
+
+      <form action="process_contact.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+
+  <footer>&copy; 2023 SadSalaryMan. All rights reserved.</footer>
+</html>
